@@ -1,17 +1,15 @@
 package pract;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 /**
  * 最大子数组和2
  * 保存 最大子数组，寻找长度最长的
  */
-public class JZ85 {
+public class JZ85_最大连续子数组和_内存超出限制 {
     public static void main(String[] args) {
         int[] array = {1,-2,3,10,-4,7,2,-5};
-        int[] ints = new JZ85().FindGreatestSumOfSubArray(array);
+        int[] ints = new JZ85_最大连续子数组和_内存超出限制().FindGreatestSumOfSubArray(array);
         for (int anInt : ints) {
             System.out.println(anInt);
         }
